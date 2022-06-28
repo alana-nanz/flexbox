@@ -1,0 +1,45 @@
+body {
+    background-color: #0e9eea;
+    font-family: 'Roboto', sans-serif;
+    margin: 40px;
+}
+
+header {
+
+}
+
+h1, h2 {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    width: 20%;
+}
+
+img {
+    width: 20px;
+}
+
+/*Mobile Styles*/
+@media only screen and (max-width: 760px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 60%;
+    }
+}
